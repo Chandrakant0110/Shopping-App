@@ -26,12 +26,14 @@ class _CartPageState extends State<CartPage> {
         centerTitle: true,
       ),
       body: cart.isEmpty
-          ? const Text(
-              'Please add some products.',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
+          ? Container(
+              alignment: Alignment.center,
+              child: const Text(
+                'Please add some products.',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
               ),
-              textAlign: TextAlign.center,
             )
           : ListView.builder(
               itemCount: cart.length,
