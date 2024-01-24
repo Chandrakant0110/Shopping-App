@@ -1,6 +1,10 @@
 # shop_app
 
-A new Flutter project.
+A Highly Responsive flutter app for Android, iOS, Windows, MacOS and Web.
+This project majorly uses Provider for State Management and no other external packages are used for the development of this app.
+
+Tested on 4 Android Devices & on Windows.
+
 
 ## Getting Started
 
